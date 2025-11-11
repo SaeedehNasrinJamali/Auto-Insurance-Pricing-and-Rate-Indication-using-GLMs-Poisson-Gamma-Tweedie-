@@ -1,4 +1,4 @@
-# Auto-Insurance-Pricing-and-Rate-Indication-using-GLMs-Poisson-Gamma-Tweedie-
+# Auto-Insurance-Pricing-and-Rate-Indication-using-GLMs-Poisson-Gamma-Tweedie
 Auto Insurance Pricing and Rate Indication using GLMs (Poisson–Gamma–Tweedie)
 
 This project builds a Generalized Linear Model (GLM)–based pricing framework for an auto insurance portfolio using the Spain Auto Insurance dataset.
