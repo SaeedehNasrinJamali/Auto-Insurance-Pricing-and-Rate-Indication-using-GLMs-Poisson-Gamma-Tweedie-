@@ -112,7 +112,10 @@ plt.show()
 
 #encoding the categorical variables
 df_model = pd.get_dummies(df_gamma, columns=cat_cols, drop_first=True)
-# --- Handle missing values in Length  ---
+#  Handle missing values in Length 
 df_model.isna().sum()  
 median_length = df_model["Length"].median()
 df_model["Length"] = df_model["Length"].fillna(median_length)
+# Save cleaned model-ready dataset 
+os.makedirs("outputs/clean_data", exist_ok=True)
+df_model.to_csv("outputs/clean_data/df_model_clean.csv", index=False)
